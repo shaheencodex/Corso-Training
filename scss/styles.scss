@@ -20,9 +20,9 @@
 }
 
 .header .slide {
-    width: 90%;
+    width: 60% !important;
     margin: 0 auto;
-  }
+  } 
 @media (max-width: 992px){
     .navbar {
         background: var(--bs-dark);
@@ -30,6 +30,19 @@
      .header  {
        height: 800px !important;
        min-height: 800px !important;
+      }
+
+      .header .slide{
+        width: 70%;
+        margin: 0 auto;
+      }
+      .display-2 {
+        width:100% !important;
+        font-size: 50px;
+      }
+      .header .text-container p {
+        width: 100% !important;
+        font-size: 14px;
       }
 
       .register{
